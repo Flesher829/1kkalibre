@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["components/*"],
+        "@/lib/*": ["lib/*"],
+        "@/lib/styled/*": ["lib/styled/*"],
+        "@icons/*":["public/icons/*"]
+      },
+      "target": "es5",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+    },
+    "include": [
+      "next-env.d.ts",
+      "pages/**/*",
+      "components/**/*",
+   "next.config.js" ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
+  
+  
+  
+  

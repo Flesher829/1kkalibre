@@ -1,0 +1,201 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+  background: #181a22;
+  display: none;
+}
+
+/* Utility classes */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.ml-1 {
+  margin-left: 0.1rem;
+}
+
+.ml-2 {
+  margin-left: 0.2rem;
+}
+
+.ml-3 {
+  margin-left: 0.3rem;
+}
+
+.ml-4 {
+  margin-left: 0.4rem;
+}
+
+.ml-5 {
+  margin-left: 0.5rem;
+}
+
+.ml-6 {
+  margin-left: 0.6rem;
+}
+
+.ml-7 {
+  margin-left: 0.7rem;
+}
+
+.ml-8 {
+  margin-left: 0.8rem;
+}
+
+.ml-9 {
+  margin-left: 0.9rem;
+}
+
+.ml-10 {
+  margin-left: 1rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-1 {
+  margin-right: 0.1rem;
+}
+
+.mr-2 {
+  margin-right: 0.2rem;
+}
+
+.mr-3 {
+  margin-right: 0.3rem;
+}
+
+.mr-4 {
+  margin-right: 0.4rem;
+}
+
+.mr-5 {
+  margin-right: 0.5rem;
+}
+
+.mr-6 {
+  margin-right: 0.6rem;
+}
+
+.mr-7 {
+  margin-right: 0.7rem;
+}
+
+.mr-8 {
+  margin-right: 0.8rem;
+}
+
+.mr-9 {
+  margin-right: 0.9rem;
+}
+
+.mr-10 {
+  margin-right: 1rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-justify-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-center {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  background: #f5f5f5;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border-bottom: 1px solid #34333f;
+}
+
+.pd-1 {
+  padding: 0.1rem;
+}
+
+.pd-2 {
+  padding: 0.2rem;
+}
+
+.pd-3 {
+  padding: 0.3rem;
+}
+
+.pd-4 {
+  padding: 0.4rem;
+}
+
+.pd-5 {
+  padding: 0.5rem;
+}
+
+.pd-6 {
+  padding: 0.6rem;
+}
+
+.pd-7 {
+  padding: 0.7rem;
+}
+
+.pd-8 {
+  padding: 0.8rem;
+}
+
+.pd-9 {
+  padding: 0.9rem;
+}
+
+.pd-10 {
+  padding: 1rem;
+}
